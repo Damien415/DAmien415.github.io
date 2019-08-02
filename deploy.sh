@@ -35,6 +35,6 @@ cp CNAME public/
 msg "Pushing the updated \`public\` folder to the \`master\` branch"
 pushd public
 git add *
-git commit
+git commit -m 'deploy'
 popd
 git push origin master
